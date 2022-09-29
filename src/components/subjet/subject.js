@@ -5,23 +5,30 @@ import './subject.css'
 
 const Subject = () => {
     const [subjects, setSubjects] = useState([]);
+
     useEffect(() => {
-        fetch('physicsList.json')
+        fetch('physicsListOne.json')
             .then(res => res.json())
             .then(data => setSubjects(data))
+
     }, [])
     return (
         <div className='subject'>
-            {
-                subjects.map(subject => <SubjectLeft
-                    key={subject.id}
-                    subject={subject}
-                ></SubjectLeft>)
-            }
+            <div>
+                {
+                    subjects.map(subject => <SubjectLeft
+                        key={subject.id}
+                        subject={subject}
+                    ></SubjectLeft>)
+                }
+            </div>
+            <div>
+                <SubjectRight>
 
-<SubjectRight>
+                </SubjectRight>
+            </div>
 
-</SubjectRight>
+
 
         </div>
     );

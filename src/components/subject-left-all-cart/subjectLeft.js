@@ -1,15 +1,17 @@
 import React from 'react';
+import './subject-left.css'
 
 const SubjectLeft = (props) => {
 
-    console.log(props.subject)
-    const{id, subName,subjectDetails,timeRequired}=props.subject
+    
+    const{img,id, subName,subjectDetails,timeRequired}=props.subject
 
 
 
 
     return (
-        <div>
+        <div className='left'>
+          <img className='img' src={img} alt="" />
           <h1>{timeRequired}</h1>
 
         </div>
