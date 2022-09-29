@@ -33,9 +33,11 @@ const Subject = () => {
                 }
             </div>
             <div>
-                <h1>
-                    {subjectsAdd.length}
-                </h1>
+                <SubjectRight subjectsAdd={subjectsAdd}>
+
+                </SubjectRight>
+                
+                
 
             </div>
 

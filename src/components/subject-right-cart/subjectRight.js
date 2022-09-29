@@ -1,12 +1,12 @@
 import React from 'react';
 import './subject-right.css'
 
-const SubjectRight = (props) => {
+const SubjectRight = ({subjectsAdd}) => {
    
-    console.log(props)
+
     return (
         <div className='right'>
-            <h1>amr sonar bangla {props.subject}</h1>
+            <h1>amr sonar bangla {subjectsAdd.length}</h1>
         </div>
     );
 };
