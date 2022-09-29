@@ -14,13 +14,13 @@
     {"img":"img/3.jpg",
         "id": "03",
         "subName": "Solid state Physics",
-        "subject-details": "Solid materials are formed from densely packed atoms, which interact intensely. These interactions produce the mechanical (e.g. hardness and elasticity), thermal, electrical, magnetic and optical properties of solids. Depending on the material involved and the conditions in which it was formed, .",
+        "subjectDetails": "Solid materials are formed from densely packed atoms, which interact intensely. These interactions produce the mechanical (e.g. hardness and elasticity), thermal, electrical, magnetic and optical properties of solids. Depending on the material involved and the conditions in which it was formed, .",
         "timeRequired": "Time required : 30 min"
     },
     {"img":"img/6.jpg",
         "id": "04",
         "subName": "Electronics",
-        "subjectDetails": "Electronics is a branch of physics concerned with the design of circuits and the study of electrons under a variety of conditions. Electronics also describes the field of Electrical Engineering and the design, function, and utilization of electronic devices and systems .",
+        "subjectDetails": "Electronics is a branch of physics concerned with the design of circuits and the study of electrons under a variety of conditions. Electronics also describes the field of Electrical Engineering and the design, function, and utilization of electronic devices and systems electronic devices and systems.",
         "timeRequired": "Time required : 30 min"
     },
     {"img":"img/5.jpg",
