@@ -21,3 +21,9 @@ margin-top: 0px;}
     padding: 2px;
     border-radius: 5px;
 }
+@media only screen and (max-width: 600px) {
+    .right{
+        margin-top: 100px;
+        background-color: rgb(237, 255, 255);
+        }
+}

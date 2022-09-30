@@ -36,6 +36,7 @@ const SubjectRight = ({ subjectsAdd }) => {
   ))}</div>
             
             <h3>Details while reading</h3>
+            
 
             
 

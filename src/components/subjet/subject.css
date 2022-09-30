@@ -10,3 +10,15 @@
     grid-template-columns: repeat(3, 1fr) ;
     gap:1%
 }
+
+@media only screen and (max-width: 600px) {
+    .subject-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+        gap:1%
+    }
+    .subject{margin-left:5% ;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap:3%;}
+}
