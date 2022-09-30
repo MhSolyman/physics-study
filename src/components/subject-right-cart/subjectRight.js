@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './subject-right.css'
 
 const SubjectRight = ({ subjectsAdd }) => {
-    const [brak, setBrak] = useState([]);
+    const [brak, setBrak] = useState([0]);
     let newTime = 0;
     for (const subject of subjectsAdd) {
         newTime = newTime + subject.timeRequired
@@ -32,21 +32,21 @@ const SubjectRight = ({ subjectsAdd }) => {
             <h3 className='h1'>Name: Md. Solyman Hossen.</h3>
             <p className='p'>Kid web developer</p>
             <h3 className='h1'>Add A Break</h3>
-            <div className='flex h1'>{reptiles.map(reptile => ( 
+            <div className='flex'>{reptiles.map(reptile => ( 
     
-    <p onClick={()=>time(reptile)} key={reptile} >{reptile} <span>m</span></p>  
+    <p className='circle' onClick={()=>time(reptile)} key={reptile} >{reptile} <span>m</span></p>  
   ))}</div>
             
-            <h3>amr sonar bangla {subjectsAdd.length}</h3>
+            <h3>Details while reading</h3>
 
             
 
             
-  <p>{newTime}</p>
+  <p className='background'>Reading time: {newTime}m</p>
 
-            <h1>
-                {brak}
-            </h1>
+            <p className='background'>
+            Break time: {brak}m
+            </p>
             
         </div>
     );
