@@ -41,7 +41,7 @@ const SubjectRight = (props) => {
     <p className='circle' onClick={()=>time(reptile)} key={reptile} >{reptile} <span>m</span></p>  
   ))}</div>
             
-            <h3>Details while reading</h3>
+            <h3>Details while reading.</h3>
             
 
             
