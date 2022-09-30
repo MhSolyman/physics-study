@@ -20,6 +20,7 @@ const SubjectRight = (props) => {
         const newSubject = [reptile];
         setBrak(newSubject);
         
+        
         }
 
     return (
