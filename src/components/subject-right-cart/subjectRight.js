@@ -19,6 +19,7 @@ const SubjectRight = (props) => {
     const time =(reptile)=>{
         const newSubject = [reptile];
         setBrak(newSubject);
+        localStorage.setItem(reptile,1)
         
         
         }
