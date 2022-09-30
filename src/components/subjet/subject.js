@@ -8,7 +8,7 @@ const Subject = () => {
     const [subjects, setSubjects] = useState([]);
     const [subjectsAdd, setSubjectsAdd] = useState([]);
 
-
+console.log(subjectsAdd)
 
     useEffect(() => {
         fetch('physicsListOne.json')

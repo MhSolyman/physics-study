@@ -5,7 +5,7 @@ const SubjectLeft = (props) => {
   const {addSubject}= props;
 
      
-    const{img,id, subName,subjectDetails,timeRequired}=props.subject
+    const{img,subName,subjectDetails,timeRequired}=props.subject
 
     
 
@@ -16,7 +16,7 @@ const SubjectLeft = (props) => {
           <img className='img' src={img} alt="" />
           <h2>{subName}</h2>
           <p>{subjectDetails}</p>
-          <h3><b>{timeRequired}</b></h3>
+          <h3><b>Reading time: {timeRequired} min</b></h3>
           <div className='btn'>
           <button onClick={()=>addSubject(props.subject)} className='button'>Add to list</button>
           </div>

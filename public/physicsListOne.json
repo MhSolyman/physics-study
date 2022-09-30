@@ -3,36 +3,36 @@
         "id": "01",
         "subName": "Quantum mechanics",
         "subjectDetails": "quantum mechanics, science dealing with the behaviour of matter and light on the atomic and subatomic scale. It attempts to describe and account for the properties of molecules and atoms and their constituents—electrons, protons, neutrons, and other more esoteric particles such as quarks and gluons.",
-        "timeRequired": "Time required : 30 min"
+        "timeRequired": 30
     },
     {"img":"img/2.jpg",
         "id": "02",
         "subName": "Nuclear physics",
         "subjectDetails": "Nuclear physics is the study of the protons and neutrons at the centre of an atom and the interactions that hold them together in a space just a few femtometres (10-15 metres) across. Example nuclear reactions include radioactive decay, fission, the break-up of a nucleus, and fusion, the merging of nuclei.",
-        "timeRequired": "Time required : 30 min"
+        "timeRequired": 30
     },
     {"img":"img/3.jpg",
         "id": "03",
         "subName": "Solid state Physics",
         "subjectDetails": "Solid materials are formed from densely packed atoms, which interact intensely. These interactions produce the mechanical (e.g. hardness and elasticity), thermal, electrical, magnetic and optical properties of solids. Depending on the material involved and the conditions in which it was formed, .",
-        "timeRequired": "Time required : 30 min"
+        "timeRequired": 30
     },
     {"img":"img/6.jpg",
         "id": "04",
         "subName": "Electronics",
         "subjectDetails": "Electronics is a branch of physics concerned with the design of circuits and the study of electrons under a variety of conditions. Electronics also describes the field of Electrical Engineering and the design, function, and utilization of electronic devices and systems electronic devices and systems.",
-        "timeRequired": "Time required : 30 min"
+        "timeRequired": 30
     },
     {"img":"img/5.jpg",
         "id": "05",
         "subName": "Medical physics",
         "subjectDetails": "Who are Medical Physicists? Medical physicists are health care professionals with specialized training in the medical applications of physics. Their work often involves the use of x-rays, ultrasound, magnetic and electric fields, infra-red and ultraviolet light, heat and lasers in diagnosis and therapy .",
-        "timeRequired": "Time required : 30 min"
+        "timeRequired": 30
     },
     {"img":"img/4.jpg",
         "id": "06",
         "subName": "Atomic and Molecular physics",
         "subjectDetails": "Atomic, molecular, and optical physics is the study of matter-matter and light-matter interactions; at the scale of one or a few atoms and energy scales around several electron volts. The three areas are closely interrelated. AMO theory includes classical, semi-classical and quantum treatments .",
-        "timeRequired": "Time required : 30 min"
+        "timeRequired": 30
     }
 ]
