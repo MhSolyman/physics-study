@@ -23,14 +23,12 @@ const SubjectRight = ({ subjectsAdd }) => {
         
         
         <div className='right'>
-            
 
-      
-
-          
-            
-            <h3 className='h1'>Name: Md. Solyman Hossen.</h3>
+            <h2 className='h1'>Name: Md. Solyman Hossen.</h2>
             <p className='p'>Kid web developer</p>
+            <div className='flex background'> <p><b>Age:</b>22y</p><p><b>Weight:</b>75kg</p></div>
+            <br />
+            <br />
             <h3 className='h1'>Add A Break</h3>
             <div className='flex'>{reptiles.map(reptile => ( 
     
