@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import './subject-right.css'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
-const SubjectRight = ({ subjectsAdd }) => {
+const SubjectRight = (props) => {
+    const {subjectsAdd }= props;
     const [brak, setBrak] = useState([0]);
     let newTime = 0;
     for (const subject of subjectsAdd) {
         newTime = newTime + subject.timeRequired
 
     }
+    const notify = () => toast("Congratulation ! has done your activity");
     
     const reptiles = [1,2,3,4];
     
@@ -46,6 +50,11 @@ const SubjectRight = ({ subjectsAdd }) => {
             <p className='background'>
             Break time: {brak}m
             </p>
+            <div className='btn'>
+        <button className='button' onClick={notify}>Activity Completed</button>
+        <ToastContainer />
+      </div>
+
             
         </div>
     );
